@@ -106,7 +106,7 @@ int file_sort(const char *sf, const char *tf)
 		flag = 0;       /*flag sort ok*/
 	} while(0);
 	
-	/*close source file and target file stream*/
+	/*close file stream*/
 	fclose(prf);
 	fclose(pwf);
 	
